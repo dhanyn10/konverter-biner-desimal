@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a
+                        class="nav-item nav-link active"
+                        data-toggle="tab"
+                        href="#nav-db"
+                        role="tab"
+                        aria-selected="true"
+                    >
+                        Desimal - Biner
+                    </a>
+                    <a
+                        class="nav-item nav-link"
+                        data-toggle="tab"
+                        href="#nav-bd"
+                        role="tab"
+                        aria-selected="false"
+                    >
+                        Biner - Desimal
+                    </a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div
+                    class="tab-pane fade show active"
+                    id="nav-db"
+                    role="tabpanel"
+                >
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <input type="text" name="" id="input-db" class="form-control" placeholder="Desimal ke Biner">
+                            </div>
+                            <textarea name="" id="hasil-db" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="tab-pane fade"
+                    id="nav-bd"
+                    role="tabpanel"
+                >
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <input type="text" name="" id="input-bd" class="form-control" placeholder="Biner ke Desimal">
+                            </div>
+                            <textarea name="" id="hasil-bd" cols="30" rows="10" class="form-control"></textarea>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
