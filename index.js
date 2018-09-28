@@ -16,7 +16,7 @@ function fn_db()//desimal ke biner
     for(a = 0; a < arr_bilangan.length; a++)
     {
         cekdesimal = valinputdb - arr_bilangan[a];
-        if(cekdesimal > 0)
+        if(cekdesimal >= 0)
         {
             arr_biner.push(1);
             valinputdb = cekdesimal;
